@@ -1,0 +1,215 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"che",
+				"checkUsername"
+			],
+			[
+				"re",
+				"required\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs"
+	],
+	"file_history":
+	[
+		"/C/Users/Adeogo/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Adeogo/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/xampp/htdocs/Newsletter/javascript/newsletter.js",
+		"/C/xampp/htdocs/Newsletter/compose.php",
+		"/C/xampp/htdocs/Newsletter/demo.html",
+		"/C/xampp/htdocs/login/demo.html",
+		"/C/xampp/htdocs/Newsletter/includes/footer.php",
+		"/C/xampp/htdocs/login/stylesheet/css.css",
+		"/C/xampp/htdocs/oop/index.php",
+		"/C/xampp/htdocs/see/index.php",
+		"/C/Users/Adeogo/Desktop/Other/html-contact-form/contact.php",
+		"/C/xampp/htdocs/Newsletter/index.php",
+		"/C/xampp/htdocs/Newsletter/includes/functions.php",
+		"/C/xampp/htdocs/Newsletter/settings.php",
+		"/C/xampp/htdocs/Newsletter/logout.php",
+		"/C/xampp/htdocs/oop/person.php",
+		"/C/xampp/htdocs/New3/sendmail.php",
+		"/C/xampp/htdocs/New3/multiple_email.php",
+		"/C/xampp/htdocs/New3/html_mail.php",
+		"/C/xampp/htdocs/Newsletter/manual_compose.php",
+		"/C/xampp/htdocs/Newsletter/stylesheet/newsletter.css",
+		"/C/xampp/htdocs/Newsletter/manual_compose",
+		"/C/xampp/htdocs/Newsletter/update_un.php",
+		"/C/xampp/htdocs/cc/caterers/catlogin_script.php",
+		"/C/xampp/htdocs/mine/index.php",
+		"/C/xampp/htdocs/Token/antivirus.php",
+		"/C/xampp/htdocs/Token/admin.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Raleway-Bold.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 173.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

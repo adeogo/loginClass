@@ -1,0 +1,11 @@
+
+SetEnv Africa/Lagos
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Prevent direct access to .htaccess files
+<Files .htaccess>
+	Deny from all
+</Files>

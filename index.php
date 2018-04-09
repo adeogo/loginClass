@@ -14,7 +14,10 @@
 			<form method="POST" action="loginScript" id="loginForm">
 				<center>
 					<input type="text" name="username" placeholder="&#xf007; Username" autocomplete="off" class="loginInput">
-					<input type="password" name="password" placeholder="&#xf023; Password" autocomplete="off" class="loginInput"><br/>
+					<input type="password" name="password" placeholder="&#xf023; Password" autocomplete="off" class="loginInput">
+				</center>
+					<input type="checkbox" name="type" autocomplete="off" value="premium">Premium User
+				<center>
 					<input type="submit" name="login" value="&#xf090; Login" class="login-button"/>
 					<input type="button" value="&#xf0c0; Sign Up" class="login-button" onclick="showForm();" />
 				</center>
@@ -35,10 +38,12 @@
 				<center>
 					<input type="text" name="username" placeholder="&#xf007; Username"  autocomplete="off" class="signupInput">
 					<input type="password" name="password" placeholder="&#xf023; Password"  autocomplete="off" class="signupInput"><br/>
-					<input type="password" name="conPassword" placeholder="&#xf023; Confirm Password"  autocomplete="off" class="signupInput"><br/>
-					<input type="submit" name="signUp" value="&#xf0c0; Sign Up" class="signup-button"/>
+					<input type="password" name="conPassword" placeholder="&#xf023; Confirm Password"  autocomplete="off" class="signupInput"><br/>	
+				</center><br/>
+					<input type="checkbox" name="type" autocomplete="off" value="premium">Premium User<br/>
+					<center><input type="submit" name="signUp" value="&#xf0c0; Sign Up" class="signup-button"/></center>
 					<!-- <input type="reset" value="&#xf090; Login" class="signup-button"  onclick="hideForm();"/> -->
-				</center>
+				
 			</form>
 		</div>
 	</div>

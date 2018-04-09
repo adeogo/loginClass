@@ -4,10 +4,10 @@
 */
 class register extends database{
 
-	public function insert($username, $password, $conpass){
+	public function insert($username, $password, $conpass, $table){
 
 		$checkUsernameQuery = "SELECT * FROM ";
-		$checkUsernameQuery .= "logintable ";
+		$checkUsernameQuery .= "{$table} ";
 		$checkUsernameQuery .= "WHERE username = '{$username}' ";
 
 		$checkUsername = mysqli_query($this->conn, $checkUsernameQuery);
@@ -23,7 +23,7 @@ class register extends database{
 					$result = "<div class='alert'>Username already exist!</div>";
 				}else{
 
-					$query = "INSERT INTO logintable(username, password) ";
+					$query = "INSERT INTO {$table}(username, password) ";
 					$query .= "VALUES('{$username}', '{$password}') ";
 
 					$run = mysqli_query($this->conn, $query);

@@ -4,10 +4,10 @@
 */
 class loginClass extends database{
 
-	public function check($username, $password){
+	public function check($username, $password, $table){
 
 		$checkUsernameQuery = "SELECT * FROM ";
-		$checkUsernameQuery .= "logintable ";
+		$checkUsernameQuery .= "{$table} ";
 		$checkUsernameQuery .= "WHERE username = '{$username}' ";
 
 		$checkUsername = mysqli_query($this->conn, $checkUsernameQuery);

@@ -13,9 +13,15 @@
 					$validate = new validate();
 					$username = $validate->check($_POST['username']);
 					$password = $validate->check($_POST['password']);
-					
+						
+						if(isset($_POST['type'])){
+								$type = $validate->check($_POST['type']);
+							}else{
+								$type = "logintable";
+							}
+
 					$login = new loginClass();
-					echo $login->check($username, $password);
+					echo $login->check($username, $password, $type);
 				}else{
 					echo "<div class='alert'>Access Denied. Please <a href='index'>Sign In</a>.</div>";
 				}

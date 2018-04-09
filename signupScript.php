@@ -14,9 +14,15 @@
 					$username = $validate->check($_POST['username']);
 					$password = $validate->check($_POST['password']);
 					$conPassword = $validate->check($_POST['conPassword']);
-					
+
+						if(isset($_POST['type'])){
+							$type = $validate->check($_POST['type']);
+						}else{
+							$type = "logintable";
+						}
+
 					$register = new register();
-					echo $register->insert($username, $password, $conPassword);
+					echo $register->insert($username, $password, $conPassword, $type);
 				}else{
 					echo "<div class='alert'>Access Denied. Please <a href='index'>Sign Up</a>.</div>";
 				}
